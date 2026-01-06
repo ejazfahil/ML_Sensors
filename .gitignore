@@ -1,0 +1,37 @@
+# Ignore data directories (will be generated during execution)
+ml_sensor_data/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files (large binaries - will be generated)
+*.h5
+*.tflite
+*.pb
+
+# Logs
+*.log
